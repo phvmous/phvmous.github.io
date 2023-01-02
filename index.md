@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Sup 👋
+# Sup dawk 👋
 
 My name is Thomas - but you can call me Tom. I am a software engineer and a master's student at the University of Pennsylvania's MCIT program. I mainly focus on front-end development and love building stuff for people. 
 

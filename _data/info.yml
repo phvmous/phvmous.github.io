@@ -11,14 +11,14 @@ navbar:
 
 # projects that will appear on the homepage, you can add more if you like
 projects:
-  - title: Project 1
-    url: p1
-    description: this was a project I worked on.
+  - title: Swift Trades
+    url: https://github.com/phvmous/swift-trades
+    description: "A Django (CRUD) financial web app + IEX REST API."
 
-  - title: Project 2
-    url: p2
-    description: this was another project I worked on.
+  - title: Covid Data Analyzer
+    url: https://github.com/phvmous/CovidDataSetAnalyzer
+    description: "A Java program that parses OpenPhilly Covid-19 data."
 
-  - title: Project 3
-    url: p3
-    description: this was the other project I worked on.
+  - title: S3 Uppy
+    url: https://github.com/phvmous/s3uppy
+    description: "A simple AWS S3 object uploader written in Javascript."

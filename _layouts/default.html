@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang ="{{ site.lang }}">
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        <header>
+            {% include header.html %}
+        </header>
+        <main>
+            {{ content }}
+        </main>
+        <footer>
+            {% include footer.html %}
+        </footer>
+        {% if site.dark_mode_toggle %}
+        <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+        {% endif %}
+    </body>
+</html>
+

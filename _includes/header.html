@@ -1,0 +1,19 @@
+<nav class="navbar">
+    <a href="{{ site.url }}" class="brand"><span>{{ site.brand }}</span> {{ site.brand_tag }}</a>
+    <ul>
+        {% if site.data.nav_menu %}
+            {% if site.data.info.navbar.size > 0 %}
+                {% for link in site.data.info.navbar %}
+                <li>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+        {% if site.dark_mode_toggle %}
+        <li>
+            <button id="toggler" title="Toggler for theme mode"><span class="light">[ dark mode ] 🌗</span><span class="dark">[ light mode ] 🌓</span></button>
+        </li>
+        {% endif %}
+    </ul>
+</nav>

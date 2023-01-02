@@ -2,10 +2,10 @@
 #      Site info      #
 #######################
 title: phvmous [ fey-muhs ] # the title of the website
-tagline: "something need doing?"
 brand: phvmous
 brand_tag: "[ fey-muhs ]"
 name: Thomas Pham
+author: Thomas Pham
 email: dtmstyle7@gmail.com
 description: > # meta data description
   The personal website of Thomas Pham, a software engineer and master's student at UPenn.

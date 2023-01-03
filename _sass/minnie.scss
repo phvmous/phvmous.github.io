@@ -3,7 +3,7 @@
 // global variables and settings for dark mode
 :root {
     --font: Nunito;
-    --bg-color: #FFF;
+    --bg-color: #E5E5E5;
     --heading: #000;
     --text: #000;
     --highlight: red;
@@ -19,7 +19,7 @@
 
 html[data-theme='dark'] {
     --bg-color: #04020B;
-    --heading: #FFF;
+    --heading: #E5E5E5;
     --text: #E5E5E5;
     --highlight: red;
     --links: #AFC8A4;

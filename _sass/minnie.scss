@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-
 // global variables and settings for dark mode
 :root {
     --font: Nunito;
-    --bg-color: #E5E5E5;
+    --bg-color: #F2F2F2;
     --heading: #000;
     --text: #000;
     --highlight: red;
     --links: #449544;
-    --borders: #e8e8e8;
+    --borders: #B2B2B2;
     .light {
         display: initial;
     }
@@ -19,8 +17,8 @@
 
 html[data-theme='dark'] {
     --bg-color: #04020B;
-    --heading: #E5E5E5;
-    --text: #E5E5E5;
+    --heading: #F2F2F2;
+    --text: #F2F2F2;
     --highlight: red;
     --links: #AFC8A4;
     --borders: #606060;

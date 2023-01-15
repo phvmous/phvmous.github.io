@@ -3,6 +3,7 @@ layout: post
 author: Thomas Pham
 tags: [first post]
 keywords: jekyll, minnie, new year
+latex: false
 ---
 Yep, time sure went by really fast. I remember when I first started using Jekyll it was actually around this time last year. Everything seemed pretty daunting at first,
 so I opted to use the [al-folo](https://github.com/alshedivat/al-folio) theme that time. I remember wasting so much time trying to set up the deployment work flow for it since nothing worked smoothly out of the box. You had to mess with the GitHub pages settings and set the deployment branch to 'gh-pages' since that is what Github Pages is expecting. Eventually, I got the first deployment to work but anything after that would fail. So, I didn't really bother to blog much after that. 

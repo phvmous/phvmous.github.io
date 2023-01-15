@@ -22,10 +22,7 @@ Furthermore, I would like to note the definition of prime numbers. By definition
 
 Proposition: if $$p$$, $$r$$, $$s$$ are positive integers such that $$p = r * s$$ and $$p$$ is prime then one of $$r$$ and $$s$$ is 1 and the other one equals $$p$$.
 
-So to prove this, assume that $$p = r * s$$ and $$p$$ is prime.
-By definition of prime, either $$r = p$$ or $$r = 1$$. 
-In the first case, if $$r = p$$, then we can write $$p = p * s = $$1 = s$$. Therefore, if $$r = p$$ then $$s = 1$$.
-In the second case, if $$r = 1$$, then we can write $$p = 1 * s$$ to $$p = s$$. Therefore, if $$r = 1$$, then $$s = p$$. Therefore, by definition of prime, $$p$$ is prime if $$r$$ and $$s$$ is 1 and the other one equals to $$p$$.
+So to prove this, assume that $$p = r * s$$ and $$p$$ is prime. By definition of prime, either $$r = p$$ or $$r = 1$$. In the first case, if $$r = p$$, then we can write $$p = p * s = 1 = s$$. Therefore, if $$r = p$$ then $$s = 1$$. In the second case, if $$r = 1$$, then we can write $$p = 1 * s$$ to $$p = s$$. Therefore, if $$r = 1$$, then $$s = p$$. Therefore, by definition of prime, $$p$$ is prime if $$r$$ and $$s$$ is 1 and the other one equals to $$p$$.
 
 That should complete our proof for both cases where $$r = 1$$ or $$r = p$$.
 Another proof I can use under my belt is something that Prof. Tannen had in the lecture notes. Without going into too much detail, it has been proven that for all integers $$x$$, if $$x > 1$$, then $$x^3 + 1$$ is not prime. 

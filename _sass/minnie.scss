@@ -14,10 +14,6 @@
     .dark {
         display: none;
     }
-    code {
-        background-color: #04020B;
-        color: #F2F2F2;
-    }
 }
 
 html[data-theme='dark'] {
@@ -46,11 +42,6 @@ html, body {
 
 code, .blog > ul > li > span {
     font-family:'Courier New', Courier, monospace;
-}
-
-code {
-    border-radius: 0.2em;
-    padding: 0.2em;
 }
 
 .navbar, main, footer {
@@ -126,6 +117,10 @@ table, th, td {
 
 code {
     font-size: 0.9rem;
+    border-radius: 0.2em;
+    padding: 0.2em;
+    background-color: #b2bad0;
+    color: #d0c8b2;
 }
 
 h1, h2, h3, h4, h5, h6 {

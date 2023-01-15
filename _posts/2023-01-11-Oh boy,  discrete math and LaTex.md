@@ -12,9 +12,9 @@ We'll start off with the definitions of odd and even, which is really simple.
 By definition of odd, an odd number is a integer that can be written in the form $2k + 1$, for some integer $k$. 
 And, by definition of even, a even number is a integer that can be written in the form $2k$, for some integer $k$. Ok.. that was simple right? How about we do a simple proof using these definitions.
 
-Prove if $$ $m + n$ $$is even, then $m - n$ is even.
+Prove if $$m + n$$is even, then $$m - n$$ is even.
 Let $m$ and $n$ be any two integers.
-Assume the integers $m$ and $n$ are such that $m + n =$ even$ and $m - n =$ even.
+Assume the integers $$m$$ and $$n$$ are such that $$m + n =$$ even and $$m - n =$$ even.
 By definition of even, $m + n = 2k$. So, $m = 2k - n$. We can substitute $m$ into $m - n$ and get $(2k - n) - n = 2k - 2n = 2(k - n).
 Because $k - n$ is some integer, let h denote $k - n$. Thus, the integers h and k are such that $2h = 2k$. Therefore, $m - n$ is even.
 

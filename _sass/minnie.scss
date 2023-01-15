@@ -15,12 +15,16 @@
     .dark {
         display: none;
     }
+    code {
+        background-color: #04020B;
+        color: #F2F2F2;
+    }
 }
 
 html[data-theme='dark'] {
     --bg-color: #04020B;
     --heading: #F2F2F2;
-    --text: #F2F2F2;
+    --text: #;
     --highlight: red;
     --links: #AFC8A4;
     --borders: #606060;
@@ -29,6 +33,10 @@ html[data-theme='dark'] {
     }
     .dark {
         display: initial;
+    }
+    code {
+        background-color: #F2F2F2;
+        color: #04020B;
     }
 }
 
@@ -43,8 +51,6 @@ code, .blog > ul > li > span {
 }
 
 code {
-    background-color: var(--bg-color);
-    color: var(--text);
     border-radius: 0.5em;
     padding: 0.2em;
 }

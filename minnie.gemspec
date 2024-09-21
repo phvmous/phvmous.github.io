@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "minnie"
   spec.version       = "0.1.0"
   spec.authors       = ["phvmous"]
-  spec.email         = ["phvmous@gmail.com"]
+  spec.email         = ["thphamous@gmail.com"]
 
   spec.summary       = "A light weight Jekyll theme that is clean and performant."
   spec.homepage      = "https://github.com/phvmous/minnie"
